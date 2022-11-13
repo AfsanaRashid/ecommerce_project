@@ -28,8 +28,6 @@
 		width:280px;
 		height: 320px;
 		padding: 20px;
-		display: block;
-		margin: 0 auto;
 	}
 	.section_body h1{
 		font-size: 26px;
@@ -51,16 +49,6 @@
 		height: 360px;
 		padding: 20px;
 		margin-top: 10px;
-		display: block;
-		margin: 0 auto;
-	}
-	.read-more-button1 {
-		visibility: hidden;
-		opacity: 0;
-	}
-	.Features-box-2:hover .read-more-button1{
-		visibility: visible;
-		opacity: 1;
 	}
 	.product_img_box_1 img{
 		width: 100%;
