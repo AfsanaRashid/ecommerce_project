@@ -51,6 +51,8 @@
 		height: 360px;
 		padding: 20px;
 		margin-top: 10px;
+		display: block;
+		margin: 0 auto;
 	}
 	.read-more-button1 {
 		visibility: hidden;
@@ -86,6 +88,8 @@
 		background-color: white;
 		width: 300px;
 		height: 480px;
+		display: block;
+		margin: 0 auto;
 	 }
 	 .blog_text h2 {
 		margin-top: 30px;

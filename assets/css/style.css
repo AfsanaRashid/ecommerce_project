@@ -24,7 +24,7 @@ Primary use:    Project Type
 html {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: clip;
     overflow-y: auto;
     scroll-behavior: smooth; }
 body {
@@ -277,6 +277,8 @@ span.social-links a {
     background: rgb(220, 220, 220);
     padding: 30px;
     border-radius: 10px;
+    display: block;
+    margin: 0 auto;
 }
 .Features-box-2:hover{
     background-color:whitesmoke;
@@ -476,6 +478,8 @@ span.social-links a {
    width: 600px;
    height: 550px;
    padding: 30px;
+   display: block;
+    margin: 0 auto;
 
 }
 .blog_img img{
@@ -522,6 +526,10 @@ span.social-links a {
     margin-left: 8px;
 }
 /*carousel*/
+.section_carousel{
+    display: block;
+		margin: 0 auto;
+}
 .card_title h3{
     color: gray;
     font-size: 30px;
@@ -553,7 +561,7 @@ text-transform: uppercase;
     width: 100px;
     height: 40px;
     padding: 10px;
-    margin-left: 900px;
+    margin-left: 920px;
 }
 .widget_wrap {
     margin-left: 20px;
