@@ -25,8 +25,7 @@ Primary use:    Project Type
     margin: 0;
     padding: 0;
     overflow-x: clip;
-    overflow-y: auto;
-    scroll-behavior: smooth; }
+}
 body {
     color: #a9a9a9;
     font-size: 15px;
@@ -306,10 +305,9 @@ span.social-links a {
 }
 /*========Logo========*/
 .section-padding-partner {
-    padding: 100px 0;
+    padding: 70px 0;
 }
 .section-padding-partner .partner-item {
-    border: 1px solid #ccc;
     transition: all 0.3s ease 0s;
     text-align: center;
     margin-top: 4px  0px;
@@ -317,6 +315,10 @@ span.social-links a {
 .section-padding-partner  .partner-item img {
     width: auto;
     margin: 0 auto;
+}
+.partner-item img{
+    width: 80%;
+    height: 20%;
 }
 .section-padding-partner .partner-item:hover {
     border-color: #00A0AC;
