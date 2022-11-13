@@ -48,7 +48,6 @@
 		width:280px;
 		height: 360px;
 		padding: 20px;
-		margin-top: 10px;
 	}
 	.product_img_box_1 img{
 		width: 100%;
@@ -112,6 +111,7 @@
 		height: 20px;
 		padding: 4px;
         margin-top: -4px;
+		display: block;
 	}
 	.widget_wrap {
 		margin-left: 10px;

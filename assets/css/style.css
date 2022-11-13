@@ -526,10 +526,6 @@ span.social-links a {
     margin-left: 8px;
 }
 /*carousel*/
-.section_carousel{
-    display: block;
-		margin: 0 auto;
-}
 .card_title h3{
     color: gray;
     font-size: 30px;
