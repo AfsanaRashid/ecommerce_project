@@ -28,6 +28,8 @@
 		width:280px;
 		height: 320px;
 		padding: 20px;
+		display: block;
+		margin: 0 auto;
 	}
 	.section_body h1{
 		font-size: 26px;
