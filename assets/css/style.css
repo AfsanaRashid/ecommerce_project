@@ -21,15 +21,16 @@ Primary use:    Project Type
     Reset Css
 ==========================================
 */
-*{
-    margin: 0;
-    padding: 0;
-    overflow-x: clip;
-}
+
 body {
     color: #a9a9a9;
     font-size: 15px;
     line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
 }
 ul {
     margin: 0;
