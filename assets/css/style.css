@@ -21,16 +21,16 @@ Primary use:    Project Type
     Reset Css
 ==========================================
 */
-
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
 body {
     color: #a9a9a9;
     font-size: 15px;
     line-height: 1.7;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    overflow-y: auto;
-    scroll-behavior: smooth;
+   
 }
 ul {
     margin: 0;
@@ -136,9 +136,6 @@ span.social-links a {
 }
 
 /*====Section 2 ========*/
-.banner_img img{
-    width: 100%;
-}
 
 /*======Card section start======*/
 .card_item{
@@ -225,7 +222,7 @@ span.social-links a {
     transition-delay: 1s;
 }
 .thumbnail img{
-    width: 100%;
+    
     height: 200px;
     border: 1px solid whitesmoke;
     border-radius: 10px;
